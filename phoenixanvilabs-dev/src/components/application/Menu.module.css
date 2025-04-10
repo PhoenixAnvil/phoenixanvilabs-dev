@@ -1,0 +1,29 @@
+/* Menu.module.css */
+.ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.li {
+  margin-bottom: 10px;
+}
+
+.a {
+  text-decoration: none;
+  color: #fb9111;
+}
+
+.a:hover {
+  color: #f24a1e;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #fb9111;
+}
+
+.activeNavLink {
+  font-weight: bold;
+  color: #f24a1e;
+}
