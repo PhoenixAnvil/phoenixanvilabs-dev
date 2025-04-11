@@ -1,4 +1,5 @@
 .tagline p {
     font-family: var(--font-secondary), serif;
+    font-size: 1.7em;
     text-align: center;
 }

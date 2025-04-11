@@ -1,7 +1,7 @@
 import React from "react";
 // import styles from "./Header.module.css";
-import Logo from "../../assets/PhoenixAnvilLabsLogoWeb.png";
-import HeadShot from "../../assets/PhoenixAnvilLabsLogoWeb.png";
+import Logo from "../../assets/PhoenixAnvilLabsLogo.png";
+import HeadShot from "../../assets/PhoenixAnvilLabsLogo.png";
 import {Row, Col} from "react-bootstrap";
 import Image from "../common/Image";
 import Name from "../common/Name";

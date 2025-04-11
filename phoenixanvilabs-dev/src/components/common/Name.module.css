@@ -1,4 +1,5 @@
 .name p {
     font-family: var(--font-secondary), serif;
+    font-size: 2.0em;
     text-align: center;
 }
