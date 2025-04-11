@@ -1,0 +1,4 @@
+.name p {
+    font-family: var(--font-secondary), serif;
+    text-align: center;
+}

@@ -1,9 +1,10 @@
 import React from "react";
+import Vision from "../components/Vision";
 
-const Vision: React.FC = () => {
+const VisionPage: React.FC = () => {
   return (
-    <h1>Vision!</h1>
+    <Vision />
   )
 }
 
-export default Vision;
+export default VisionPage;

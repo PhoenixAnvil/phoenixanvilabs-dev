@@ -11,19 +11,19 @@
 
 .a {
   text-decoration: none;
-  color: #fb9111;
+  color: var(--color-primary);
 }
 
 .a:hover {
-  color: #f24a1e;
+  color: var(--color-secondary);
 }
 
 .navLink {
   text-decoration: none;
-  color: #fb9111;
+  color: var(--color-primary);
 }
 
 .activeNavLink {
   font-weight: bold;
-  color: #f24a1e;
+  color: var(--color-secondary);
 }

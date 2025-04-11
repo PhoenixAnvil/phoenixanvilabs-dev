@@ -1,9 +1,10 @@
 import React from "react";
+import Mission from "../components/Mission";
 
-const Mission: React.FC = () => {
+const MissionPage: React.FC = () => {
   return (
-    <h1>Mission!</h1>
+    <Mission />
   )
 }
 
-export default Mission;
+export default MissionPage;

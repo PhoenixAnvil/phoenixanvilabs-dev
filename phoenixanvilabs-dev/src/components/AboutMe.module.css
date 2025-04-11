@@ -1,0 +1,5 @@
+.about p {
+    font-family: var(--font-main), serif;
+    text-align: left;
+    text-indent: 2em;
+}

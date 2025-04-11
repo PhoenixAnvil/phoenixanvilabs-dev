@@ -24,7 +24,6 @@ const Menu: React.FC = () => {
   ];
 
   return (
-    <div className="menu-component-div">
       <ul className={styles.ul}>
         {menuItems.map((item, index) => (
           <li className={styles.li} key={index}>
@@ -36,7 +35,7 @@ const Menu: React.FC = () => {
               <NavLink
                 to={item.route}
                 className={({ isActive }) =>
-                  isActive ? styles.activeNavLink : styles.navlink
+                  isActive ? styles.activeNavLink : styles.navLink
                 }
               >
                 {item.caption}
@@ -45,7 +44,6 @@ const Menu: React.FC = () => {
           </li>
         ))}
       </ul>
-    </div>
   );
 };
 
