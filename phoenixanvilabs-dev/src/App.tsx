@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import MissionPage from "./pages/Mission";
 import VisionPage from "./pages/Vision";
+import FavoritesPage from "./pages/Favorites";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/mission" element={<MissionPage />} />
                 <Route path="/vision" element={<VisionPage />} />
+                <Route path="/favorites" element={<FavoritesPage />} />
               </Routes>
             </Col>
           </Row>

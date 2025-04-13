@@ -1,0 +1,16 @@
+.favorites ul {
+    list-style: none;
+}
+
+.favorites li {
+    text-align: center;
+}
+
+.favorites h1 {
+    text-align: center;
+}
+
+.favorites a {
+    font-family: var(--font-main), serif;
+    font-size: 1.8em;
+}

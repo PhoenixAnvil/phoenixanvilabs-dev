@@ -17,6 +17,7 @@ const Menu: React.FC = () => {
     { caption: "Jira", route: "https://www.atlassian.com/software/jira", external: true },
     { caption: "Confluence", route: "https://www.atlassian.com/software/confluence", external: true },
     { caption: "Aha!", route: "https://www.aha.io/roadmaps/overview/", external: true },
+    { caption: "RFC Editor", route: "https://www.rfc-editor.org", external: true },
     { caption: "Docs", route: "/docs", external: false },
     { caption: "Favorites", route: "/favorites", external: false },
     { caption: "CS Library", route: "/cslib", external: false },
